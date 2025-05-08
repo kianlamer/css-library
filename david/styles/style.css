@@ -4,11 +4,23 @@ padding: 0;
 border: 0;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 150px 1fr 1fr 1fr 1fr;
+}
+
 a {
 font-size: larger;
+background-color: white;
 }
 
 nav {
     background-color: lightblue;
-    height: 150px;
+    display: flex;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    padding: 20px;
+    gap: 50px;
+    align-items: center;
 }
