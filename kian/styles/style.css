@@ -1,0 +1,36 @@
+nav {
+    background: lightblue;
+    display:flex;
+    justify-content: space-around;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+nav a {
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    padding:35px;
+}
+nav a:hover {
+    background-color:lightseagreen;
+    color:white;
+}
+
+footer {
+    background: lightblue;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: lightseagreen;
+    color: white;
+}
