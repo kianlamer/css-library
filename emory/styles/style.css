@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.css_selectors section {
+    margin-top: 10px;
+}
+.examples {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    margin: 10px;
+    
+}
+.examples > div {
+    background-color: white;
+    border: solid black;
+    border-radius: 10px;
+}
+.examples >div > p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border-bottom: solid black;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+.examples > div > div {
+    margin: 10px;
+}
+#select_element .examples {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#select_element .examples div .example_1 h2 {
+    color:red;
+}
+
+#select_element .examples div .example_2 img {
+    background-color:red;
+}
+
+#select_element .examples div .example_3 p {
+    color:red;
+}
