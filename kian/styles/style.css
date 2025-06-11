@@ -5,15 +5,44 @@ nav {
     z-index: 1;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 nav a {
     text-align: left;
     color: black;
     text-decoration: none;
     padding:35px;
 }
+
 nav a:hover {
     background-color:lightseagreen;
     color:white;
+}
+
+.profile-card {
+  box-shadow: 5px 5px 10px #6f7364;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  font-family: arial;
+  background: lightgrey;
+}
+
+.profile-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  color: rgb(71, 60, 60);
+  font-size: 18px;
+}
+
+.social img {
+    max-width: 50px;
+    height: auto;
+    margin: 10px;
 }
 
 footer {
@@ -25,14 +54,4 @@ footer {
     justify-content: space-around;
     align-items: center;
     box-shadow: 5px 5px 10px #6f7364;
-}
-footer a {
-    text-align: left;
-    color: black;
-    text-decoration: none;
-    padding: 35px;
-}
-footer a:hover {
-    background-color: lightseagreen;
-    color: white;
 }
