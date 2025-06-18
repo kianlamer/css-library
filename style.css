@@ -32,6 +32,16 @@ a:hover, a:visited, a:link, a:active
     color:aliceblue;
 }
 
+#emory_snapshot {
+    background-color: #084C61;
+    color: #FFF;
+}
+
+#emory_snapshot:hover {
+    background-color: #96a13a;
+    color: #191308
+}
+
 .snap_img {
     width: 100%;
     height: 100%;
