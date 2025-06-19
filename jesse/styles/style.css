@@ -14,7 +14,7 @@ nav ul{
 }
 nav ul li{
     margin: 0;
-    padding: 5px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -24,9 +24,17 @@ nav ul li a{
     color: #2B2D42;
     text-decoration: none;
     font-size: 18px;
+    padding: 0;
     
 }
 
+nav ul li:hover{
+    color: #055722;
+    text-decoration: underline;
+}
+nav ul li a:hover{
+    color: #abad84;
+}
 .profile-container{
     display:flex;
     flex-wrap: wrap;
@@ -76,4 +84,29 @@ nav ul li a{
     width:50px;
     height: 50px;
     border-radius: 50%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile-container{
+    justify-self: center;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.btn-container button{
+    padding: 1.5rem;
+    font-weight: 300;
+    border: 1px solid;
+    width: 100%;
+    max-width: 300px;
+    margin: 25px;
+
 }
