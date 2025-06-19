@@ -1,0 +1,40 @@
+#wrapper {
+    display: grid;
+    grid-template-rows: 10%, 30%, 20%, 20%, 20%;
+    background-color: aqua;
+    justify-items: center;
+}
+
+nav {
+    grid-column: repeat(4, 1fr);
+    flex-wrap: nowrap;
+    background-color: blue;
+    background-repeat: repeat;
+    justify-items: center;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-self: center;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: bisque;
+}
+
+h2 {
+    background-color: bisque;
+}
