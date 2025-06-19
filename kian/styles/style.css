@@ -1,0 +1,97 @@
+nav {
+    background: linear-gradient(135deg, #add8e6 0%, #87ceeb 50%, #4682b4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    z-index: 1;
+    box-shadow: 0 4px 15px rgba(111, 115, 100, 0.3);
+    position: sticky;
+    top: 0;
+    gap: 5px;
+}
+
+nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #20b2aa, #48d1cc);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(32, 178, 170, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+nav a:active {
+    transform: translateY(0);
+}
+
+.profile-card {
+  box-shadow: 5px 5px 10px #6f7364;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  font-family: arial;
+  background: lightgrey;
+}
+
+.profile-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  color: rgb(71, 60, 60);
+  font-size: 18px;
+}
+
+.social img {
+    max-width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background: lightblue;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+/* Responsive navigation for mobile */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 15px;
+        gap: 3px;
+        flex-wrap: wrap;
+    }
+    
+    nav a {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin: 2px 1px;
+    }
+}
+
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
